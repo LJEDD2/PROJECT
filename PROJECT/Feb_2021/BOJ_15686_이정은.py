@@ -13,22 +13,6 @@ for i in range(N):
         if city[i][j] == 2:
             c.append([i,j])
 
-#조합 구현방법 
-#https://shoark7.github.io/programming/algorithm/Permutations-and-Combinations
-"""def combinations(arr, r):
-    arr = sorted(arr)
-    def generate(chosen):
-        if len(chosen) == r:
-            return
-        start = arr.index(chosen[-1]) + 1 if chosen else 0
-        for nxt in range(start, len(arr)):
-            chosen.append(arr[nxt])
-            generate(chosen)
-            chosen.pop()
-    generate([])"""
-
-#Nonetype 에러 발생 ㅠ
-# 어떻게 combinations 구현할지 ?
 
 #좌표 구하는 함수 https://blog.naver.com/kswamen/222165983276 참고
 c_combi = combinations(c,M)
