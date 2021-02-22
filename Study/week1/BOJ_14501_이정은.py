@@ -13,7 +13,7 @@ for i in range(n):
 #https://blog.naver.com/hands731/221975805862 
 for i in range(1,n+2): 
     for j in range(1,i):
-        print(d)
+       # print(d)
         
         d[i] = max(d[i],d[j])  
 
