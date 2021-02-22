@@ -40,7 +40,7 @@ def DFS(i,j):
 
     for tetros in shapes:
         for tetro in tetros: #shape안에 저장된 테트로를 불러옴
-            result = board[si][sj] #시작좌표 숫자 저장 
+            result = board[si][sj] #시작좌표 숫자 저장 시작좌표[i][j] + tetro[i][j] 로 합계낼것 
             
             for di, dj in tetro: # 각 테트로의 [i][j]값 불러옴 
                 si += di
